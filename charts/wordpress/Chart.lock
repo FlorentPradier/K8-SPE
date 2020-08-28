@@ -1,0 +1,12 @@
+dependencies:
+- name: vitess
+  repository: file://../vitess
+  version: 2.0.1-0
+- name: php-fpm
+  repository: file://../php-fpm
+  version: 0.1.0
+- name: mcrouter
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 1.0.3
+digest: sha256:1ffbc7c20db30134e349aa6259b8f38d58b63d464ff47e5633e9530b78ab6d7a
+generated: "2020-08-28T21:36:45.701322+02:00"
